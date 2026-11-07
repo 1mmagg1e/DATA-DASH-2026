@@ -185,9 +185,20 @@ Passing this check confirms submission validity, not predictive accuracy.
 
 ## Reproducibility status
 
-Both models were run locally through the official validation pipeline. The final test prediction files were generated using the same packaged model code and checked against the official test datasets.
+Reproducibility was verified on macOS using Python 3.13 in a fresh virtual
+environment, with code downloaded from GitHub and dependencies installed
+from requirements.txt.
 
-Validation and prediction were executed using local CSV inputs and the installed Python environment. A clean-environment installation and the automatic-download route have not yet been independently verified.
+Using local official CSV files, both models reproduced the reported
+validation results and passed the additional verification checks.
+
+With DATA_DIR unset, the code successfully downloaded the official
+training and test datasets from Hugging Face, generated predictions
+for both tracks, and passed the official submission checks.
+
+These checks confirm that the code runs reproducibly and produces valid
+submission files. Hidden-test accuracy is evaluated by the organizers
+using the withheld sale prices.
 
 ## Limitations
 
