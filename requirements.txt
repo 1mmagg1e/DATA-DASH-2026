@@ -1,0 +1,9 @@
+# Versions used for the reproduced local validation (Python 3.13).
+numpy==2.3.3
+pandas==3.0.6
+scikit-learn==1.9.1
+scipy==1.18.1
+matplotlib==3.10.6
+# Official data.py downloads Parquet files when DATA_DIR is not set.
+huggingface_hub
+pyarrow
