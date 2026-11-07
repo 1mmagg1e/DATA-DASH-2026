@@ -1,7 +1,7 @@
 # SSU Data Dash 2026 — Toronto Home-Price Prediction
 
-Team: [TEAM NAME]
-Team members: [FULL NAMES]
+Team: [The Outliers]
+Team members: [Maggie Huang, Tianyi Zhao, Wenjun Bo, Yibo Zhang]
 
 This project predicts home sale prices for two competition tracks:
 
