@@ -1,0 +1,20 @@
+{
+  "off_market": {
+    "N": 10069,
+    "MdAPE_pct": 11.745907647202541,
+    "MAPE_pct": 14.945116384929873,
+    "Median_signed_error_pct": 1.5606911276292899
+  },
+  "list_aware": {
+    "N": 10069,
+    "MdAPE_pct": 4.452835018558813,
+    "MAPE_pct": 5.656365028567129,
+    "Median_signed_error_pct": 0.7909967845659164
+  },
+  "checks": {
+    "status": "PASS",
+    "final_off_market_training_n": 22238,
+    "notebook_comparison": "pooled and monthly scores match to 3 decimals",
+    "test_predictions_generated": false
+  }
+}
