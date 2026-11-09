@@ -11,6 +11,9 @@ This project predicts home sale prices for two competition tracks:
 Official dataset:
 https://huggingface.co/datasets/Baliyang/SSU_data_dash
 
+Presentation Video Link:
+https://www.youtube.com/watch?v=d42YsT9QbvA
+
 ## Final models
 
 ### Off-market
